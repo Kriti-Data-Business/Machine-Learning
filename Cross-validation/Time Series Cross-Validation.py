@@ -1,14 +1,14 @@
 ### 5. Time Series Cross-Validation (Rolling Forecast Origin)
 
 #### Description
-- **Procedure**:
-  1. Train the model on an increasing time span and test it on the next time step.
-  2. Move the training window forward and repeat.
-  3. This respects the temporal order of the data.
+# - **Procedure**:
+#   1. Train the model on an increasing time span and test it on the next time step.
+#   2. Move the training window forward and repeat.
+#   3. This respects the temporal order of the data.
 
-#### Example
-- **Usage**: When dealing with time series data where future values should not be used to predict past values.
-- **Example**: You have a dataset with daily stock prices. Train on the first 10 days, test on day 11. Then train on days 1-11, test on day 12, and so on.
+# #### Example
+# - **Usage**: When dealing with time series data where future values should not be used to predict past values.
+# - **Example**: You have a dataset with daily stock prices. Train on the first 10 days, test on day 11. Then train on days 1-11, test on day 12, and so on.
 
 
 
